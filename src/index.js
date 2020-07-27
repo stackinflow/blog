@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './tests/serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>Hello</div>
   </React.StrictMode>,
   document.getElementById('root')
 );
