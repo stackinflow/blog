@@ -19,7 +19,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --passWithNoTests --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
